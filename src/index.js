@@ -1,3 +1,5 @@
 'use strict'
 
-console.log('I live')
+import router from './routes'
+
+window.addEventListener('load', router)
